@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2E3F1FD2D26DF4400ACCE84 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = F2E3F1FC2D26DF4400ACCE84 /* GoogleGenerativeAI */; };
+		F2F9975D2D25E7DB00A16167 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F2F9975C2D25E7DB00A16167 /* FirebaseAuth */; };
+		F2FBCFD32D2C832B00EF952C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2FBCFD22D2C832B00EF952C /* GoogleService-Info.plist */; };
+		F2FBCFD62D2C841200EF952C /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = F2FBCFD52D2C841200EF952C /* GoogleSignIn */; };
+		F2FBCFD82D2C841200EF952C /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F2FBCFD72D2C841200EF952C /* GoogleSignInSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F252FA482D25CACA002B26B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F252FA2F2D25CAC8002B26B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F252FA362D25CAC8002B26B9;
+			remoteInfo = MebAssistantIOS;
+		};
+		F252FA522D25CACA002B26B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F252FA2F2D25CAC8002B26B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F252FA362D25CAC8002B26B9;
+			remoteInfo = MebAssistantIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F252FA372D25CAC8002B26B9 /* MebAssistantIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MebAssistantIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F252FA472D25CACA002B26B9 /* MebAssistantIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MebAssistantIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F252FA512D25CACA002B26B9 /* MebAssistantIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MebAssistantIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2FBCFD22D2C832B00EF952C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F252FA392D25CAC8002B26B9 /* MebAssistantIOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MebAssistantIOS;
+			sourceTree = "<group>";
+		};
+		F252FA4A2D25CACA002B26B9 /* MebAssistantIOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MebAssistantIOSTests;
+			sourceTree = "<group>";
+		};
+		F252FA542D25CACA002B26B9 /* MebAssistantIOSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MebAssistantIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F252FA342D25CAC8002B26B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F9975D2D25E7DB00A16167 /* FirebaseAuth in Frameworks */,
+				F2E3F1FD2D26DF4400ACCE84 /* GoogleGenerativeAI in Frameworks */,
+				F2FBCFD62D2C841200EF952C /* GoogleSignIn in Frameworks */,
+				F2FBCFD82D2C841200EF952C /* GoogleSignInSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F252FA442D25CACA002B26B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F252FA4E2D25CACA002B26B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F252FA2E2D25CAC8002B26B9 = {
+			isa = PBXGroup;
+			children = (
+				F252FA392D25CAC8002B26B9 /* MebAssistantIOS */,
+				F252FA4A2D25CACA002B26B9 /* MebAssistantIOSTests */,
+				F252FA542D25CACA002B26B9 /* MebAssistantIOSUITests */,
+				F252FA382D25CAC8002B26B9 /* Products */,
+				F2FBCFD22D2C832B00EF952C /* GoogleService-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		F252FA382D25CAC8002B26B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F252FA372D25CAC8002B26B9 /* MebAssistantIOS.app */,
+				F252FA472D25CACA002B26B9 /* MebAssistantIOSTests.xctest */,
+				F252FA512D25CACA002B26B9 /* MebAssistantIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F252FA362D25CAC8002B26B9 /* MebAssistantIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F252FA5B2D25CACA002B26B9 /* Build configuration list for PBXNativeTarget "MebAssistantIOS" */;
+			buildPhases = (
+				F252FA332D25CAC8002B26B9 /* Sources */,
+				F252FA342D25CAC8002B26B9 /* Frameworks */,
+				F252FA352D25CAC8002B26B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F252FA392D25CAC8002B26B9 /* MebAssistantIOS */,
+			);
+			name = MebAssistantIOS;
+			packageProductDependencies = (
+				F2F9975C2D25E7DB00A16167 /* FirebaseAuth */,
+				F2E3F1FC2D26DF4400ACCE84 /* GoogleGenerativeAI */,
+				F2FBCFD52D2C841200EF952C /* GoogleSignIn */,
+				F2FBCFD72D2C841200EF952C /* GoogleSignInSwift */,
+			);
+			productName = MebAssistantIOS;
+			productReference = F252FA372D25CAC8002B26B9 /* MebAssistantIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F252FA462D25CACA002B26B9 /* MebAssistantIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F252FA5E2D25CACA002B26B9 /* Build configuration list for PBXNativeTarget "MebAssistantIOSTests" */;
+			buildPhases = (
+				F252FA432D25CACA002B26B9 /* Sources */,
+				F252FA442D25CACA002B26B9 /* Frameworks */,
+				F252FA452D25CACA002B26B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F252FA492D25CACA002B26B9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F252FA4A2D25CACA002B26B9 /* MebAssistantIOSTests */,
+			);
+			name = MebAssistantIOSTests;
+			packageProductDependencies = (
+			);
+			productName = MebAssistantIOSTests;
+			productReference = F252FA472D25CACA002B26B9 /* MebAssistantIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F252FA502D25CACA002B26B9 /* MebAssistantIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F252FA612D25CACA002B26B9 /* Build configuration list for PBXNativeTarget "MebAssistantIOSUITests" */;
+			buildPhases = (
+				F252FA4D2D25CACA002B26B9 /* Sources */,
+				F252FA4E2D25CACA002B26B9 /* Frameworks */,
+				F252FA4F2D25CACA002B26B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F252FA532D25CACA002B26B9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F252FA542D25CACA002B26B9 /* MebAssistantIOSUITests */,
+			);
+			name = MebAssistantIOSUITests;
+			packageProductDependencies = (
+			);
+			productName = MebAssistantIOSUITests;
+			productReference = F252FA512D25CACA002B26B9 /* MebAssistantIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F252FA2F2D25CAC8002B26B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					F252FA362D25CAC8002B26B9 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F252FA462D25CACA002B26B9 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F252FA362D25CAC8002B26B9;
+					};
+					F252FA502D25CACA002B26B9 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F252FA362D25CAC8002B26B9;
+					};
+				};
+			};
+			buildConfigurationList = F252FA322D25CAC8002B26B9 /* Build configuration list for PBXProject "MebAssistantIOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F252FA2E2D25CAC8002B26B9;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F2F9975B2D25E7DB00A16167 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				F2E3F1FB2D26DF4400ACCE84 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+				F2FBCFD42D2C841200EF952C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F252FA382D25CAC8002B26B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F252FA362D25CAC8002B26B9 /* MebAssistantIOS */,
+				F252FA462D25CACA002B26B9 /* MebAssistantIOSTests */,
+				F252FA502D25CACA002B26B9 /* MebAssistantIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F252FA352D25CAC8002B26B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FBCFD32D2C832B00EF952C /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F252FA452D25CACA002B26B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F252FA4F2D25CACA002B26B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F252FA332D25CAC8002B26B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F252FA432D25CACA002B26B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F252FA4D2D25CACA002B26B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F252FA492D25CACA002B26B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F252FA362D25CAC8002B26B9 /* MebAssistantIOS */;
+			targetProxy = F252FA482D25CACA002B26B9 /* PBXContainerItemProxy */;
+		};
+		F252FA532D25CACA002B26B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F252FA362D25CAC8002B26B9 /* MebAssistantIOS */;
+			targetProxy = F252FA522D25CACA002B26B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F252FA592D25CACA002B26B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F252FA5A2D25CACA002B26B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F252FA5C2D25CACA002B26B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MebAssistantIOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MebAssistant.MebAssistantIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F252FA5D2D25CACA002B26B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MebAssistantIOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MebAssistant.MebAssistantIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F252FA5F2D25CACA002B26B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MebAssistant.MebAssistantIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MebAssistantIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MebAssistantIOS";
+			};
+			name = Debug;
+		};
+		F252FA602D25CACA002B26B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MebAssistant.MebAssistantIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MebAssistantIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MebAssistantIOS";
+			};
+			name = Release;
+		};
+		F252FA622D25CACA002B26B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MebAssistant.MebAssistantIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MebAssistantIOS;
+			};
+			name = Debug;
+		};
+		F252FA632D25CACA002B26B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MebAssistant.MebAssistantIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MebAssistantIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F252FA322D25CAC8002B26B9 /* Build configuration list for PBXProject "MebAssistantIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F252FA592D25CACA002B26B9 /* Debug */,
+				F252FA5A2D25CACA002B26B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F252FA5B2D25CACA002B26B9 /* Build configuration list for PBXNativeTarget "MebAssistantIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F252FA5C2D25CACA002B26B9 /* Debug */,
+				F252FA5D2D25CACA002B26B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F252FA5E2D25CACA002B26B9 /* Build configuration list for PBXNativeTarget "MebAssistantIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F252FA5F2D25CACA002B26B9 /* Debug */,
+				F252FA602D25CACA002B26B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F252FA612D25CACA002B26B9 /* Build configuration list for PBXNativeTarget "MebAssistantIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F252FA622D25CACA002B26B9 /* Debug */,
+				F252FA632D25CACA002B26B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F2E3F1FB2D26DF4400ACCE84 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.6;
+			};
+		};
+		F2F9975B2D25E7DB00A16167 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.6.0;
+			};
+		};
+		F2FBCFD42D2C841200EF952C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F2E3F1FC2D26DF4400ACCE84 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2E3F1FB2D26DF4400ACCE84 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+		F2F9975C2D25E7DB00A16167 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2F9975B2D25E7DB00A16167 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F2FBCFD52D2C841200EF952C /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2FBCFD42D2C841200EF952C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		F2FBCFD72D2C841200EF952C /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2FBCFD42D2C841200EF952C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F252FA2F2D25CAC8002B26B9 /* Project object */;
+}
